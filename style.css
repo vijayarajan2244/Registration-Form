@@ -1,0 +1,46 @@
+body{
+    background-image: url(/bg1);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.form-group>i{
+    position: absolute;
+    margin-left: 275px;
+    margin-top: -27px;
+    visibility: hidden;
+}
+.form-group.success input{
+    border: 2px green solid;
+}
+.form-group.error input{
+    border: 2px red solid;
+}
+.form-group.success i.ion-ios-checkmark{
+    visibility: visible;
+    color: green;
+}
+.form-group.error i.ion-android-alert{
+    visibility: visible;
+    color: red;
+}
+p{
+    margin-left: 10px;
+    visibility: hidden;
+}
+.form-group>p{
+
+    visibility: hidden;
+}
+.form-group.error>p{
+    color: red;
+    visibility: visible;
+}
+.heading h3{
+    color: seashell;
+    margin-left: 415px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.card{
+    margin-bottom: 15px;
+}
